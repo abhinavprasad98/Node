@@ -7,4 +7,4 @@ var chefsSchema = new mongoose.Schema({
     order_id: {type: String, unique: true, required:true}
 });
 
-mongoose.model('chefs', chefsSchema);
+module.exports = mongoose.model('chefs', chefsSchema);

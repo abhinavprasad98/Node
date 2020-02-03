@@ -6,4 +6,4 @@ var dishesSchema = new mongoose.Schema({
     unit_price: {type: String, required:true}
 });
 
-mongoose.model('dishes', dishesSchema);
+module.exports = mongoose.model('dishes', dishesSchema);

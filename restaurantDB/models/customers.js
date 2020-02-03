@@ -7,4 +7,4 @@ var customersSchema = new mongoose.Schema({
     lastname: {type: String, required:true}
 });
 
-mongoose.model('customers', customersSchema);
+module.exports = mongoose.model('customers', customersSchema);

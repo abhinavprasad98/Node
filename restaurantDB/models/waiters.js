@@ -7,4 +7,4 @@ var waitersSchema = new mongoose.Schema({
     menu_id: {type: String, unique: true, required:true}
 });
 
-mongoose.model('waiters', waitersSchema);
+module.exports = mongoose.model('waiters', waitersSchema);

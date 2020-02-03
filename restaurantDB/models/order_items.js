@@ -6,4 +6,4 @@ var order_itemsSchema = new mongoose.Schema({
     unit_price: {type: String, required:true}
 });
 
-mongoose.model('order_items', order_itemsSchema);
+module.exports = mongoose.model('order_items', order_itemsSchema);

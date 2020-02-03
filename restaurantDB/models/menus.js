@@ -5,4 +5,4 @@ var menusSchema = new mongoose.Schema({
     categories: {type: String, unique: true, required:true}
 });
 
-mongoose.model('menus', menusSchema);
+module.exports = mongoose.model('menus', menusSchema);

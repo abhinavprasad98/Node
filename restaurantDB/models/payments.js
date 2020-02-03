@@ -8,4 +8,4 @@ var paymentsSchema = new mongoose.Schema({
     payment_type: {type: String, unique: true, required:true}
 });
 
-mongoose.model('payments', paymentsSchema);
+module.exports = mongoose.model('payments', paymentsSchema);

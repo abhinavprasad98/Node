@@ -6,4 +6,4 @@ var ordersSchema = new mongoose.Schema({
     quantity: {type: String, required:true},
 });
 
-mongoose.model('orders', ordersSchema);
+module.exports = mongoose.model('orders', ordersSchema);
