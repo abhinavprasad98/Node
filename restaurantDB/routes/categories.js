@@ -22,4 +22,16 @@ router.put('/categories/:id', function(req, res) {
     })
 
 })
+
+router.get('/categories', function(req, res) {
+    categories.findById(
+        {_id: req.body._id}
+    ).then(function(data) {
+        res.send(data);
+        console.log('Category ID found seccessfully');
+    }).catch((err) => {
+        console.log(err);
+    })
+       
+    })
 module.exports = router;

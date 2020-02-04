@@ -1,7 +1,7 @@
 var bodyparser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.connect( 
-    'mongodb+srv:abhinavs:Praveenkumar123@abhinav-ugqym.mongodb.net/test?retryWrites=true&w=majority',
+    'mongodb+srv://abhinavs:Praveenkumar123@cluster0-ugqym.mongodb.net/test?retryWrites=true&w=majority',
    {
        useUnifiedTopology:true,
        useNewUrlParser:true,

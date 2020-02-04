@@ -28,9 +28,9 @@ mongoose.connect(
 });
 
 require('./models/categories');
-// require('./models/chefs');
-// require('./models/customers');
-// require('./models/dishes');
+require('./models/chef');
+require('./models/customers');
+require('./models/dishes');
 // require('./models/menus');
 // require('./models/order_items');
 // require('./models/orders');

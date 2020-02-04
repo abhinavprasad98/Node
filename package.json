@@ -7,6 +7,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "mongoose": "^5.8.11",
     "nodemailer": "^6.4.2",
     "secure-route": "^3.0.1"
   },
@@ -19,5 +20,13 @@
     "tgthn"
   ],
   "author": "me",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavprasad98/Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhinavprasad98/Node/issues"
+  },
+  "homepage": "https://github.com/abhinavprasad98/Node#readme"
 }
