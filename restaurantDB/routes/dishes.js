@@ -8,6 +8,17 @@ router.post('/dishes', function(req, res) {
         console.log('Dishes has been successfully added to the Database');
     }).catch((err) => {
         console.log(err);
+        res.status(400).send(err);
     })
+})
+
+router.put('/dishes/:id', function(req, res) {
+    dishes.update({_id:req.params.id}, req.body
+        ).then((data) => {
+            res.send(data);
+            console.log('Required attribute has been successfully updated');
+        }).catch((err) => {
+            console.log(err);
+        })
 })
 module.exports = router;
