@@ -31,11 +31,11 @@ require('./models/categories');
 require('./models/chef');
 require('./models/customers');
 require('./models/dishes');
-// require('./models/menus');
-// require('./models/order_items');
-// require('./models/orders');
+require('./models/menus');
+require('./models/orders');
+require('./models/order_items');
 // require('./models/payments');
-// require('./models/waiters');
+require('./models/waiters');
 
 app.use(require('./routes/index'));
 
