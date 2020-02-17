@@ -5,7 +5,7 @@ const dishes = require('./dishes')
 var menusSchema = new mongoose.Schema({
     // dishes:{type:mongoose.Schema.Types.ObjectId, ref:'dishes'},
     // price: {type: String, required:true},
-    categories: {type: [mongoose.Schema.Types.ObjectId], ref:'categories'},
+    Name: {type:String,required:true}
 });
 
 module.exports = mongoose.model('menus', menusSchema);
